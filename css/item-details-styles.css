@@ -1,0 +1,41 @@
+.space {
+    display: flex;
+    justify-content: flex-start;
+    width:100%;
+    min-width: 300px;
+    border: 1px solid rgb(236, 27, 27);
+    padding-top: 43%; 
+    position: relative;
+}
+
+.coupon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    height: max-content;
+    margin: 50px 0% 50px 0%;
+    padding: 0 2% 0 2%;
+    min-width: 200px;
+}
+
+.material-icons.link {
+    color: rgb(100, 100, 100);
+    height: 100%;
+    padding-left: 5px;
+}
+
+.purchase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-description{
+    margin: 50px 0% 50px 0%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 50% ;
+    min-width: 300px;
+}

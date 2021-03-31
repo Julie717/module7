@@ -1,0 +1,11 @@
+.form-title.registration {
+    width: 66%;
+    padding-left: 2%;
+}
+
+.common-form.registration {
+    display: flex;
+    flex-flow: row wrap;
+    width: 62%;
+    padding: 50px 3% 0px 3%;
+}

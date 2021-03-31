@@ -1,0 +1,29 @@
+label.filebutton {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 36px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgb(180, 180, 180);
+    opacity: 85%;
+}
+
+.material-icons.file{
+    font-size: 18px;
+    margin-right: 3px;
+}
+
+label span input {
+    font-size: 50px;
+    position: absolute;
+    top: -2px;
+    left: -400px;
+    cursor: pointer;
+    _cursor: hand;
+    opacity: 0;
+}
+
+.common-block{
+    margin-top: 10px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8' />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/common-styles.css">
+    <link rel="stylesheet" href="../css/add-new-item-styles.css">
+</head>
+
+<body>
+    <iframe class="frame" src="header.html" marginheight="0"></iframe>
+    <main>
+        <div class="main-area bg-white justify-start">
+            <div class="form-title bg-dark-grey">
+                <h2>
+                    Add New Coupon
+                </h2>
+            </div>
+            <form class="common-form" method="post" action="">
+                <div class="common-column">
+                    <div class="common-block">
+                        <label class="common-label">
+                            Company
+                        </label>
+                        <input type="text" class="common-item" />
+                    </div>
+                    <div class="common-block">
+                        <label class="common-label">
+                            Category
+                        </label>
+                        <select class="common-item">
+                            <option selected>Category Name</option>
+                            <option>Sport</option>
+                            <option>Education</option>
+                            <option>Food</option>
+                            <option>Entertainment</option>
+                        </select>
+                    </div>
+                    <div class="common-block">
+                        <label class="common-label">
+                            Valid to
+                        </label>
+                        <input type="datetime-local" min="2021-03-01T08:00" class="common-item" />
+                    </div>
+                    <div class="common-block">
+                        <label class="common-label">
+                            Price
+                        </label>
+                        <input type="number" min=0 class="common-item" />
+                    </div>
+                    <div class="common-block">
+                        <label class="common-label">
+                            Images
+                        </label>
+                        <label for="file" class="filebutton common-item">
+                            <span class="material-icons file">
+                                <input type="file"  />
+                                collections
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <div class="common-column">
+                    <div class="common-block">
+                        <label class="common-label">
+                            Item Name
+                        </label>
+                        <input type="text" class="common-item" />
+                    </div>
+                    <div class="common-block">
+                        <label class="common-label">
+                            Short description
+                        </label>
+                        <textarea class="common-item"></textarea>
+                    </div>
+                    <div class="common-block">
+                        <label class="common-label">
+                            Long description
+                        </label>
+                        <textarea class="common-item"></textarea>
+                    </div>
+                    <div class="common-block-buttons">
+                        <button class="cancel" type="cancel">Back</button>
+                        <button class="sign-up" type="submit">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

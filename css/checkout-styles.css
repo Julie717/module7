@@ -1,0 +1,57 @@
+.coupon-small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap row;
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    position: relative;
+}
+
+.coupon-small-description {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.coupon-small-price {
+    display: flex;
+    align-items: center;
+    width: 70px;
+}
+
+.line {
+    width:  calc(55% + 140px);
+    height: 10px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+.coupon-result{
+    display: flex;
+    flex-flow:  row;
+    justify-content:space-between;
+    width:  calc(55% + 140px);
+}
+
+.text-total{
+    padding: 0;
+    text-align: right;
+    width: max-content;
+}
+
+.margin-left {
+    width: 100%;
+    margin-right: 10%;
+    position: relative;
+}
+
+.first{
+    margin-top: 20px;
+}
+
+.common-block-buttons.small{
+    display: flex;
+    justify-content: space-between;
+    width:  calc((55% + 140px)*0.5);
+    margin-left:  calc((55% + 140px)*0.5);
+}
